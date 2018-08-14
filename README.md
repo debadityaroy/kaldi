@@ -1,3 +1,11 @@
+This repository accompanies the paper titled "Unsupervised Action Recognition using Universal Attribute Modelling".
+
+Using this repository, one can reproduce the results on the HMDB51 dataset for Histogram of Optical Flow (HOF) features. These HOF features are extracted using Improved Dense Trajectory framework https://lear.inrialpes.fr/people/wang/improved_trajectories.
+
+We train a large Gaussian mixture model for extracting attributes of different actions. Then we perform MAP adaptation Here we provide a recipe 
+
+
+
 Installation
 ================================
 
