@@ -1,9 +1,8 @@
 This repository accompanies the paper titled "Unsupervised Action Recognition using Universal Attribute Modelling".
 
-Using this repository, one can reproduce the results on the HMDB51 dataset for Histogram of Optical Flow (HOF) features. These HOF features are extracted using Improved Dense Trajectory framework https://lear.inrialpes.fr/people/wang/improved_trajectories.
+Using this repository, one can reproduce the results on the HMDB51 dataset for Histogram of Optical Flow (HOF) features. These HOF features are extracted using [Improved Dense Trajectory framework] https://lear.inrialpes.fr/people/wang/improved_trajectories.
 
-We train a large Gaussian mixture model for extracting attributes of different actions. Then we perform MAP adaptation Here we provide a recipe 
-
+We provide the extracted HOF features for the HMDB51 dataset [here] 
 
 
 Installation
@@ -14,7 +13,15 @@ systems including various flavors of Linux; Darwin; and Cygwin (has not been
 tested on more "exotic" varieties of UNIX).  For Windows installation
 instructions (excluding Cygwin), see `windows/INSTALL`.
 
-To run the example system builds, see `egs/README.txt`
+Running
+================================
+To run, please use the egs/sre10/v1/run_hmdb51.sh file. Remember to give executable 
+permissions to this file (for Linux "chmod +x egs/sre10/v1/run_hmdb51.sh").
+
+Place the HOF features downloaded above into the data folder of the 
+
+
+
 
 If you encounter problems (and you probably will), please do not hesitate to
 contact the developers (see below). In addition to specific questions, please
