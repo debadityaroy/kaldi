@@ -16,24 +16,24 @@ instructions (excluding Cygwin), see `windows/INSTALL`.
 
 Running
 ================================
-1.To run, please use the egs/sre10/v1/run_hmdb51.sh file. Remember to give executable 
-permissions to this file (for Linux "chmod +x egs/sre10/v1/run.sh").
 
-2. Create a folder anywhere e.g. /home/debaditya/HOF. 
+1. Create a folder anywhere e.g. /home/debaditya/HOF. 
 The folder you created above is the variable "parent_dir" in egs/sre10/v1/run.sh. 
 
-3. Download and extract the features given above into that folder.
+2. Download and extract the features given above into that folder.
 
-4. To run the code now navigate to the egs/sre10/v1/ directory in the code folder and use the following command
+3. To run the code now navigate to the egs/sre10/v1/ directory in the code folder and use the following command
 
 ./run.sh "parent_dir"
-5.The scores you should obtain will be in EER (equal error rate). They should be as follows:
+Remember to give executable permissions to this file (for Linux "chmod +x egs/sre10/v1/run.sh").
 
-6. Classification accuracy reported in the paper is calculated as 100-EER. However, 
+4.The scores you should obtain will be in EER (equal error rate). They should be as follows:
 
-7. These scores are based on cosine-scoring, LDA and PLDA applied to action-vectors.
+5. Classification accuracy reported in the paper is calculated as 100-EER. However, 
 
-8. For discriminative embedding using Siamese networks, the action-vectors have to be extracted from the folders 
+6. These scores are based on cosine-scoring, LDA and PLDA applied to action-vectors.
+
+7. For discriminative embedding using Siamese networks, the action-vectors have to be extracted from the folders 
 
 Training action-vectors : <parent_dir>/exp/ivectors_hmdb51_train_512_200     
 Testing action-vectors : <parent_dir>/exp/ivectors_hmdb51_test_512_200
@@ -44,5 +44,5 @@ where
 
 You can change both these parameters and new directories will be created based on the values.
 
-9. Please contact Debaditya Roy (cs13p1001@iith.ac.in) to know more about the creation the feature files.
+8. Please contact Debaditya Roy (cs13p1001@iith.ac.in) to know more about the creation the feature files.
 
