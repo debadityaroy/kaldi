@@ -11,7 +11,6 @@
 . path.sh
 set -e
 parent_dir=$1
-parent_dir2=$2
 trials="$parent_dir"data/hmdb51_test/trials
 num_components=512 # 2048, 1024, 512, 256
 ivec_dim=200 #600, 400, 200
