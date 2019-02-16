@@ -44,5 +44,5 @@ where
 
 You can change both these parameters and new directories will be created based on the values.
 
-9. Please contact [Debaditya Roy](cs13p1001@iith.ac.in) to know more about the creation the feature files.
+9. Please contact Debaditya Roy (cs13p1001@iith.ac.in) to know more about the creation the feature files.
 
