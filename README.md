@@ -44,7 +44,7 @@ Remember to give executable permissions to this file (for Linux "chmod +x run.sh
 
 4.The scores you should obtain will be in EER (equal error rate). They should be as follows:
 
-5. Classification accuracy reported in the paper is calculated as 100-EER. However, 
+5. Classification accuracy reported in the paper is calculated as 100-EER. 
 
 6. These scores are based on cosine-scoring, LDA and PLDA applied to action-vectors.
 
@@ -59,5 +59,5 @@ where
 
 You can change both these parameters and new directories will be created based on the values.
 
-8. Please contact Debaditya Roy (cs13p1001@iith.ac.in) to know more about the creation the feature files.
+8. Please contact Debaditya Roy (cs13p1001@iith.ac.in) to know more about the creation the feature files or extraction of action-vectors for further processing.
 
