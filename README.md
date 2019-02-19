@@ -31,14 +31,15 @@ The full path to the folder you created above is the variable "parent_dir" in eg
 ```
 
 The path to the features need to be changed to the parent_dir. Navigate to egs/sre10/v1/ directory in the code folder and run
-
+```
 change_path.py parent_dir
-
+```
 Remember to give executable permissions to this file (for Linux "chmod +x change_path.sh").
 
 3. To run following command
-
+```
 ./run.sh parent_dir
+```
 Remember to give executable permissions to this file (for Linux "chmod +x run.sh").
 
 4.The scores you should obtain will be in EER (equal error rate). They should be as follows:
