@@ -22,7 +22,15 @@ Running
 1. Create a folder anywhere e.g. /home/debaditya/HOF. 
 The full path to the folder you created above is the variable "parent_dir" in egs/sre10/v1/run.sh. 
 
-2. Download and extract the features given above into that folder. The path to the features need to be changed to the parent_dir. Navigate to egs/sre10/v1/ directory in the code folder and run
+2. Download and extract the features given above into that folder. The folder structure should look like this
+
+   parent_dir
+       |--data
+           |--hmd51_test
+           |--hmdb51_train
+
+
+The path to the features need to be changed to the parent_dir. Navigate to egs/sre10/v1/ directory in the code folder and run
 
 change_path.py parent_dir
 
