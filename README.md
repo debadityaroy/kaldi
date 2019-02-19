@@ -1,8 +1,8 @@
-This repository accompanies the paper titled [Unsupervised Action Recognition using Universal Attribute Modelling] https://ieeexplore.ieee.org/document/8576541 and [Action Recognition based on discriminative embedding of actions using Siamese networks] https://ieeexplore.ieee.org/document/845122, for generating action-vectors.
+This repository accompanies the paper titled [Unsupervised Action Recognition using Universal Attribute Modelling](https://www.researchgate.net/publication/329665918_Unsupervised_Universal_Attribute_Modelling_for_Action_Recognition?_sg=zOUAMlSi15QRc2isDfPBzxOdkDzoRLxcKgCZCh_ULGVUdVcdQ_Xdu1rjnWjnddOfxSqfto8lTkr40LFxWmewJ0hHeFOvkItp97YLIjdD.2X3qealrl1T2ucwDGXQjPt9Irs7GOZIU_fi7z7S7mIiGnz1HksmNDe82sHVXwWpyAzZXVTF_bt87EOPab5AQoQ) and [Action Recognition based on discriminative embedding of actions using Siamese networks](https://www.researchgate.net/publication/327995636_Action_Recognition_Based_on_Discriminative_Embedding_of_Actions_Using_Siamese_Networks?_sg=zOUAMlSi15QRc2isDfPBzxOdkDzoRLxcKgCZCh_ULGVUdVcdQ_Xdu1rjnWjnddOfxSqfto8lTkr40LFxWmewJ0hHeFOvkItp97YLIjdD.2X3qealrl1T2ucwDGXQjPt9Irs7GOZIU_fi7z7S7mIiGnz1HksmNDe82sHVXwWpyAzZXVTF_bt87EOPab5AQoQ), for generating action-vectors.
 
 Using this repository, one can reproduce the results on the HMDB51 dataset for Histogram of Optical Flow (HOF) features. These HOF features are extracted using [Improved Dense Trajectory framework] https://lear.inrialpes.fr/people/wang/improved_trajectories.
 
-We provide the extracted HOF features for the HMDB51 dataset [here] 
+We provide the extracted HOF features for the HMDB51 dataset [here](https://drive.google.com/drive/folders/1kpHoZQvDgfUItu-pqbS8SrZQyg0yimaf?usp=sharing)
 
 In order to run the code, follow these steps:
 
@@ -23,12 +23,12 @@ Running
 The full path to the folder you created above is the variable "parent_dir" in egs/sre10/v1/run.sh. 
 
 2. Download and extract the features given above into that folder. The folder structure should look like this
-
+```
    parent_dir
    +--data
    |  +--hmd51_test
    |  +--hmdb51_train
-
+```
 
 The path to the features need to be changed to the parent_dir. Navigate to egs/sre10/v1/ directory in the code folder and run
 
