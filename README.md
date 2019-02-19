@@ -24,7 +24,7 @@ The full path to the folder you created above is the variable "parent_dir" in eg
 
 2. Download and extract the features given above into that folder. The path to the features need to be changed to the parent_dir. Navigate to egs/sre10/v1/ directory in the code folder and run
 
-change_path.sh parent_dir
+change_path.py parent_dir
 
 Remember to give executable permissions to this file (for Linux "chmod +x change_path.sh").
 
