@@ -14,7 +14,7 @@ systems including various flavors of Linux; Darwin; and Cygwin (has not been
 tested on more "exotic" varieties of UNIX).  For Windows installation
 instructions (excluding Cygwin), see `windows/INSTALL`.
 
-This tutorial should help http://kaldi-asr.org/doc/tutorial_setup.html
+This tutorial should help in case of any problems http://kaldi-asr.org/doc/tutorial_setup.html.
 
 Running
 ================================
