@@ -18,14 +18,18 @@ Running
 ================================
 
 1. Create a folder anywhere e.g. /home/debaditya/HOF. 
-The folder you created above is the variable "parent_dir" in egs/sre10/v1/run.sh. 
+The full path to the folder you created above is the variable "parent_dir" in egs/sre10/v1/run.sh. 
 
-2. Download and extract the features given above into that folder.
+2. Download and extract the features given above into that folder. The path to the features need to be changed to the parent_dir. Navigate to egs/sre10/v1/ directory in the code folder and run
 
-3. To run the code now navigate to the egs/sre10/v1/ directory in the code folder and use the following command
+change_path.sh parent_dir
 
-./run.sh "parent_dir"
-Remember to give executable permissions to this file (for Linux "chmod +x egs/sre10/v1/run.sh").
+Remember to give executable permissions to this file (for Linux "chmod +x change_path.sh").
+
+3. To run following command
+
+./run.sh parent_dir
+Remember to give executable permissions to this file (for Linux "chmod +x run.sh").
 
 4.The scores you should obtain will be in EER (equal error rate). They should be as follows:
 
