@@ -25,8 +25,11 @@ The full path to the folder you created above is the variable "parent_dir" in eg
 2. Download and extract the features given above into that folder. The folder structure should look like this
 
    parent_dir
+   
        |--data
+       
            |--hmd51_test
+           
            |--hmdb51_train
 
 
