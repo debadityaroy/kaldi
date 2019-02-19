@@ -25,12 +25,9 @@ The full path to the folder you created above is the variable "parent_dir" in eg
 2. Download and extract the features given above into that folder. The folder structure should look like this
 
    parent_dir
-   
-       |--data
-       
-           |--hmd51_test
-           
-           |--hmdb51_train
+   +--data
+   |  +--hmd51_test
+   |  +--hmdb51_train
 
 
 The path to the features need to be changed to the parent_dir. Navigate to egs/sre10/v1/ directory in the code folder and run
